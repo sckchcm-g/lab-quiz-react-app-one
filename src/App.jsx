@@ -1,13 +1,15 @@
-import React, { useState } from 'react'
-import End from './components/End'
-import Start from './components/Start'
-import Game from './components/Game'
+import { Component } from "react"
+import Homepage from "./components/Homepage"
+import Quizpage from "./components/Quizpage"
+import Resultpage from "./components/Resultpage"
+import './App.css'
 
-function App() {
+export default function App() {
   return (
-    <div>
-      
-    </div>
+    <>
+    <Homepage />
+    <Quizpage />
+    <Resultpage />
+    </>
   )
 }
-export default App
